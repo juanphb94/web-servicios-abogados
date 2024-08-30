@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicios legales profesionales. Defendemos tus derechos con experiencia y compromiso.">
+    <title>Firma de Abogados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #00274d;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #004080;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .banner {
+            background: url('banner-abogados.jpg') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .banner h2 {
+            font-size: 3em;
+        }
+
+        .banner a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007acc;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+        }
+
+        .service {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 30%;
+        }
+
+        .service h3 {
+            color: #00274d;
+        }
+
+        .about {
+            margin: 40px 0;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .about h2 {
+            color: #00274d;
+        }
+
+        .testimonials {
+            background-color: #00274d;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            margin-bottom: 30px;
+        }
+
+        .contact {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact form input, .contact form textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact form input[type="submit"] {
+            background-color: #004080;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+
+            .contact form input, .contact form textarea {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Firma de Abogados</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div>
+            <h2>Defendemos tus derechos con experiencia y compromiso</h2>
+            <a href="#contact">Solicita una consulta gratuita</a>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="services" class="services">
+            <div class="service">
+                <h3>Derecho Penal</h3>
+                <p>Representación en casos criminales con experiencia y profesionalismo.</p>
+            </div>
+            <div class="service">
+                <h3>Derecho Civil</h3>
+                <p>Resolución de disputas civiles, contratos y herencias.</p>
+            </div>
+            <div class="service">
+                <h3>Derecho de Familia</h3>
+                <p>Asesoría en divorcios, custodia y pensión alimenticia.</p>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos un equipo de abogados comprometidos con la justicia y la defensa de los derechos de nuestros clientes. Con años de experiencia en diferentes áreas del derecho, nos esforzamos por ofrecer un servicio personalizado y eficaz.</p>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2>Lo que nuestros clientes dicen</h2>
+            <p>"Excelente servicio, me ayudaron en un momento muy difícil. Altamente recomendados."</p>
+            <p>"Profesionales y comprometidos. Gracias a ellos, logré resolver mi situación legal."</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contáctanos</h2>
+            <form>
+                <input type="text" name="name" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                <textarea name="message" placeholder="Tu mensaje" rows="5" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Firma de Abogados. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
